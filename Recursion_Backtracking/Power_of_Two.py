@@ -45,7 +45,7 @@ class Solution:
             return False
         if nums<1:
             return False
-        print(nums)
+        print(nums) 
         return self.recurse(nums//2)
     def bit(self,nums):
         return nums&(nums-1)==0

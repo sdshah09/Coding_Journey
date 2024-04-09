@@ -4,6 +4,8 @@ Find Permutations of a String
 I/P "ABC"
 O/P = ["ABC","ACB","BCA","BAC","CBA","CAB"]
 
+Time Complexity :- O(n^2*n!)
+
 '''
 
 class Solution:
