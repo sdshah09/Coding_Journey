@@ -1,0 +1,9 @@
+Define condition to stop expanding our window
+
+Expand our window until we meet that condition but before expanding the window, process the element at the ‘right’ index.
+
+If we meet our condition to stop expanding, process the current window.
+
+Contract our current window, but before contracting, process the element at the ‘left’ index.
+
+Process Edge Cases.
