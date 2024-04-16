@@ -1,0 +1,28 @@
+💎 Here are most important BST questions.
+💎 Cannot provide other platform links due to leetcode privacy policy.
+💎 "Hard work beats talent when talent doesn’t work hard."
+💎 Thank me later. 😊
+
+Search in BST. "https://leetcode.com/problems/search-in-a-binary-search-tree/description/"
+Minimum and Maximum value in BST. GFG
+Inorder Predecessor and Successor. GFG
+Delete a node in BST. GFG
+Validate BST. "https://leetcode.com/problems/validate-binary-search-tree/description/"
+Lowest Common Ancestor of a Binary Search Tree "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/"
+Kth smallest element in BST. "https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/"
+Create BST from inorder traversal.
+Two sum IV "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/"
+BST to sorted doubly LL "https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/"
+Sorted LL to balanced BST. GFG
+Convert doubly LL to BST.
+Largest BST in binary tree. GFG
+Maximum sum BST in binary tree. "https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/description/"
+construct BST from preorder traversal. "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/"
+Cousins in binary tree. "https://leetcode.com/problems/cousins-in-binary-tree/description/"
+Brother from different roots. GFG
+Balance a BST. "https://leetcode.com/problems/balance-a-binary-search-tree/description/"
+Median of BST. GFG
+Check whether BST contains DEAD END. GFG
+Range sum of BST. "https://leetcode.com/problems/range-sum-of-bst/"
+Flatten BST to sorted LL. GFG
+Merge two BST's. GFG
