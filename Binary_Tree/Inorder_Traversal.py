@@ -61,7 +61,26 @@ class Solution:
         self.inorderrecurse(root,arr)
         res = self.traverse_inorder(root)
         return arr,res
-
+    def morris(self,root):
+        res = []
+        cur = root
+        while cur:
+            if not cur.left:
+                res.append(cur.val)
+                cur = cur.right 
+            else:
+                prev = cur.left
+                while prev.right and prev.right!=cur:
+                    prev = prev.right
+                if not prev.right:
+                    prev.right = cur
+                    print(prev.right.val)
+                    cur = cur.left
+                else:
+                    prev.right = None
+                    res.append(cur.val)
+                    cur = cur.right
+        return res
 if __name__ == "__main__":
     root = TreeNode(1)
     root.left = TreeNode(2)

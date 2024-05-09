@@ -64,6 +64,26 @@ class Solution:
         self.recurse(root,arr)
         val = self.traversal(root)
         return arr,val
+    def morris(self,root):
+        res = []
+        cur = root
+        while cur:
+            if not cur.left:
+                res.append(cur.val)
+                cur = cur.right 
+            else:
+                prev = cur.left
+                while prev.right and prev.right!=cur:
+                    prev = prev.right
+                if not prev.right:
+                    res.append(cur.val)
+                    prev.right = cur
+                    # print(prev.right.val)
+                    cur = cur.left
+                else:
+                    prev.right = None
+                    cur = cur.right
+        return res
 
 if __name__ == "__main__":
     sol = Solution()
