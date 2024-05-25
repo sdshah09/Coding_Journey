@@ -63,7 +63,7 @@ class Solution:
         if m < 0 or n < 0 or m >= len(grid) or n >= len(grid[0]) or grid[m][n] != '1':
             return
         
-        grid[m][n] = '0'
+        grid[m][n] = '0' # Visited
         self.dfs(grid, m + 1, n)
         self.dfs(grid, m - 1, n)
         self.dfs(grid, m, n + 1)
