@@ -62,9 +62,17 @@ class Solution:
     def dfs(self, grid, m, n):
         if m < 0 or n < 0 or m >= len(grid) or n >= len(grid[0]) or grid[m][n] != '1':
             return
-        
+        print(grid)
         grid[m][n] = '0' # Visited
         self.dfs(grid, m + 1, n)
         self.dfs(grid, m - 1, n)
         self.dfs(grid, m, n + 1)
         self.dfs(grid, m, n - 1)
+if __name__ == "__main__":
+    sol = Solution()
+    print(sol.numIslands([
+  ["1","1","1","1","0"],
+  ["1","1","0","1","0"],
+  ["1","1","0","0","0"],
+  ["0","0","0","0","0"]
+]))
