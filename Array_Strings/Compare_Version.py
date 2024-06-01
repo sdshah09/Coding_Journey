@@ -42,9 +42,7 @@ class Solution:
         i,j=0,0
         while i<len(version1) or j<len(version2):
             v1,i = self.calculateversion(version1,i)
-            # print(v1)
             v2,j = self.calculateversion(version2,j)
-            # print(v2)
             if v1<v2:
                 return -1
             elif v1>v2:

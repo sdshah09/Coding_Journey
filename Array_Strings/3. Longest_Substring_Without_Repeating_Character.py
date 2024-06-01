@@ -46,13 +46,14 @@ from collections import defaultdict
 class Solution:
     def longestSubString(self,string):
         string_dict = defaultdict()
-        left,max_len = 0,0
-        for i in range(len(string)):
-            string_dict[string[i]] = 1+string_dict.get(string[i],0)
-            while string_dict[string[i]] > 1:
-                string_dict[string[left]]-=1
-                left+=1
-            max_len = max(max_len,i-left+1)
+        i,j,max_len = 0,0,0
+        while j<len(string):
+            string_dict[string[j]] = 1+string_dict.get(string[j],0)
+            while string_dict[string[j]] > 1:
+                string_dict[string[i]]-=1
+                i+=1
+            max_len = max(max_len,j-i+1)
+            j+=1
         return max_len
 
 if __name__ == "__main__":

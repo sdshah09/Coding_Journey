@@ -15,6 +15,7 @@ Example 1:
 Input: s = "lee(t(c)o)de)"
 Output: "lee(t(c)o)de"
 Explanation: "lee(t(co)de)" , "lee(t(c)ode)" would also be accepted.
+
 Example 2:
 
 Input: s = "a)b(c)d"
