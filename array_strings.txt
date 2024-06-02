@@ -1,0 +1,46 @@
+Arrays & Strings
+
+Two Sum
+Two Sum if the array is sorted
+Majority element - sorted array
+Majority element - unsorted array (Moore - voting algorithm)
+Find the maximum occurring character in a string
+Maximum Gap (Radix Sort)
+Maximum difference between two elements such that big number appears after small
+Maximum Subarray (Kadane's algorithm)
+Remove all adjacent duplicate characters in the string (Stack)
+Single Number i
+Single Number ii (Redo)
+Rotate String 
+Move zeros
+Reverse words in a string i
+Reverse words in a string ii
+Reverse words in a string iii
+Reverse a string 
+Valid Palindrome [^a-zA-Z0-9]+' and Two pointer approach(one from l and one from r)
+3 Sum
+Valid Palindrome ii
+3 Sum closest
+3 Sum smaller
+Find pivot index
+First unique character in the string
+Run length encoding
+Valid anagram
+Sliding window maximum (Must Do) (Hard)
+Asteroid collision (Stack)
+Search in a sorted array of unknown size
+Count of smaller number after self (Must Do) (Hard)
+Excel sheet column number
+Minimum Window Substring (Must Do) (Hard)
+Subarray sum equals k
+Contiguous array
+Product of array except self
+Duplicate number
+Sort a k-sorted array
+Find all the duplicates in an array
+Rotate the array
+Wiggle sort
+Next Greater element iii
+Trapping rain water
+Valid Triangle number
+Merge sorted array

@@ -1,0 +1,360 @@
+Linear Structure Basic
+Includes: String, Array, Linked List
+Difficulty Level: ( Easy | Medium )
+
+
+
+Must-Do
+LeetCode88. Merge Sorted Array
+LeetCode186. Reverse Words in a String II
+LeetCode1. Two Sum
+LeetCode143. Reorder List
+LeetCode92. Reverse Linked List II
+LeetCode56. Merge Intervals
+LeetCode20. Valid Parentheses
+LeetCode75. Sort Colors
+LeetCode155. Min Stack
+LeetCode277. Find the Celebrity
+LeetCode281. Zigzag Iterator
+57. insert interval
+71. Simplify Path
+15. 3Sum
+
+
+
+Optional
+LeetCode234. Palindrome Linked List
+LeetCode283. Move Zeros
+LeetCode242. Valid Anagram
+16. 3sum closest
+246. Strobogrammatic Number
+82. Remove Duplicates from Sorted list II
+380. Insert delete getrandom O(1)
+11 container with most water
+189 rotate array
+48 rotate image
+225 implement stack using queues
+
+
+
+
+
+
+
+
+Linear Structure Advanced
+Includes: String, Array, Linked List
+Difficulty Level: ( Medium | Hard )
+
+
+
+Must-Do
+LeetCode259. 3Sum Smaller
+LeetCode532. K-diff Pairs in an Array
+LeetCode567. Permutation in String
+LeetCode76. Minimum Window Substring
+LeetCode85. Maximal Rectangle
+LeetCode475. Heaters
+LeetCode340. Longest Substring with At Most K Distinct Characters
+LeetCode42. Trapping Rain Water
+LeetCode239. Sliding Window Maximum
+LeetCode274. H-Index
+LeetCode275. H-Index II
+LC 26. Remove Duplicates from Sorted Array
+LC 80. Remove Duplicates from Sorted Array II
+LC 442. Find All Duplicates in an Array
+LC 448. Find All Numbers Disappeared in an Array
+LC 41. First Missing Positive
+LC 268. Missing Number
+LC 287. Find the Duplicate Number
+LC 54 Spiral Matrix
+84. Largest Rectangle in Histogram (H)
+105 Construct Binary Tree from Preorder and Inorder Traversal
+
+
+
+
+
+
+Optional
+LeetCode658. Find K Closest Elements
+LeetCode159. Longest Substring with At Most Two Distinct Characters
+LC 316. Remove Duplicate Letters
+LC 142. Linked List Cyle II
+LC 224 Basic Calculator
+LC 227 Basic Calculator II
+LC 59 Spiral Matrix II
+
+
+
+
+
+
+
+Recursion + Search  - Basic
+Includes: Recursion + Binary Search + Tree
+Difficulty Level: ( Easy | Medium )
+
+
+
+Must-Do
+206. Reverse Linked List
+LeetCode278. First Bad Version
+LeetCode34. Search for a Range
+LeetCode450. Delete Node in a BST
+LeetCode156. Binary Tree Upside Down
+LeetCode98. Validate Binary Search Tree
+LeetCode236. Lowest Common Ancestor of a Binary Tree
+LeetCode153. Find Minimum in Rotated Sorted Array
+LeetCode154. Find Minimum in Rotated Sorted Array II
+LeetCode144. Binary Tree Preorder Traversal
+104. Maximum Depth of Binary Tree
+111. Minimum Depth of Binary Tree
+257. Binary Tree Paths
+101. Symmetric Tree
+110. Balanced Binary Tree
+
+
+
+
+
+
+Optional
+LeetCode235. Lowest Common Ancestor of a Binary Search Tree
+LeetCode33. Search in Rotated Sorted Array
+LeetCode94. Binary Tree Inorder Traversal
+LeetCode145. Binary Tree Postorder Traversal
+LeetCode102. Binary Tree Level Order Traversal
+LeetCode81. Search in Rotated Sorted Array II
+129. Sum Root to Leaf Numbers
+
+
+
+
+
+
+
+
+Recursion + Search  - Advanced
+Includes: Recursion + Binary Search + Tree
+Difficulty Level: ( Medium | Hard )
+
+
+
+Must-Do
+LeetCode772. Basic Calculator III
+LeetCode255. Verify Preorder Sequence in Binary Search Tree
+LeetCode105. Construct Binary Tree from Preorder and Inorder Traversal
+LeetCode436. Find Right Interval
+LeetCode315. Count of Smaller Numbers After Self
+LeetCode208. Implement trie tree
+LeetCode29. Divide Two Integers
+LeetCode307. Range Sum Query - Mutable
+LeetCode4. Median of Two Sorted Arrays
+LeetCode297. Serialize and Deserialize Binary Tree
+LeetCode776. Split BST
+LeetCode114. Flatten Binary Tree to Linked List
+LeetCode298. Binary Tree Longest Consecutive Sequence
+LeetCode99. Recover Binary Search Tree
+QuickSort implementation
+LeetCode384. Shuffle an Array
+LeetCode378. Kth Smallest Element in a Sorted Matrix
+LeetCode74 Search in 2D Matrix
+LeetCode240 Search in 2D Matrix II
+
+
+
+
+
+
+Optional
+LeetCode303. Range Sum Query
+LeetCode261. Graph Valid Tree
+LeetCode230. Kth Smallest Element in a BST
+LeetCode103. Binary Tree Zigzag Level Order Traversal
+LeetCode367. Valid Perfect Square
+LeetCode508. Most Frequent Subtree Sum
+LeetCode250. Count Univalue Subtrees
+
+
+
+
+
+
+
+Sorting | Graph  - Basic
+Includes: Sorting | Graph | DFS | BFS
+Difficulty Level: ( Easy | Medium )
+
+
+
+Must-Do
+75. Sort Colors
+LeetCode133. Clone Graph
+LeetCode207. Course Schedule
+LeetCode210. Course Schedule II
+LeetCode490. The Maze
+LeetCode505. The Maze II
+LeetCode46. Permutations
+LeetCode47. Permutations II
+LeetCode200. Number of Islands
+LeetCode305. Number of Islands II
+692. Top K Frequent Words
+LeetCode286. Walls and Gates
+LC 77 Combinations
+LC 78 Subsets
+52. N-Queens II
+
+
+
+
+
+
+Optional
+22. Generate Parentheses
+LeetCode787. Cheapest Flights Within K Stops
+499. The Maze III
+222. Count Complete Tree Nodes
+347. Top K Frequent Elements
+295. Find Median from Data Stream
+261. Graph Valid Tree
+253. Meeting Room II
+207. Course Schedule
+339. Nested List Weight Sum
+23. Merge k Sorted Lists
+199. Binary Tree Right Side View
+90. Subset II
+301. Remove invalid parentheses(DFS & BFS)
+
+
+
+Sorting | Graph  - Advanced
+Includes: Sorting | Graph | DFS | BFS
+Difficulty Level: ( Medium | Hard )
+
+
+
+Must-Do
+LeetCode74. Search in 2D Matrix
+LeetCode240. Search in 2D Matrix II
+LeetCode127. Word Ladder
+LeetCode126. Word Ladder II
+LeetCode286. Walls and Gates
+LeetCode305. Number of Island II
+LeetCode323. Number of Connected Components in an Undirected Graph
+LeetCode353. SNAKE
+LeetCode269. Alien Dictionary
+LeetCode417. Pacific Atlantic Water Flow
+LeetCode773. Sliding Puzzle
+LeetCode547. Friend Circles
+LeetCode425. Word Squares
+LeetCode444. Sequence Reconstruction
+LeetCode373. Find K Pairs with Smallest Sums
+LeetCode45. Jump Game II
+
+
+
+
+Optional
+LeetCode785. Is Graph Bipartite
+LeetCode839. Similar String Groups
+LeetCode352. Data Stream as Disjoint Intervals
+LeetCode973. Kth Closest Points
+LeetCode684. Redundant Connection
+LeetCode802. Find Eventual Safe States
+LeetCode737. Sentence Similarity II
+LeetCode317. Shortest Distance from All Buildings
+LeetCode399. Evaluate Division
+
+
+
+
+
+
+
+
+Memorization | DP  - Basic
+Includes: Sorting | Graph | DFS | BFS
+Difficulty Level: ( Easy | Medium )
+
+
+
+Must-Do
+LeetCode198. House Robber
+LeetCode213. House Robber II
+LeetCode322. Coin Change
+LeetCode518. Coin Change II
+39. Combination Sum
+40. Combination Sum II
+377. Combination Sum IV
+72. Edit Distance
+403. Frog Jump
+309. Best Time to Buy and Sell Stock with Cooldown
+LeetCode53. Maximum Subarray
+LeetCode486. Predict the Winner =Pot of Gold Game
+LeetCode139. Word Break
+LeetCode300. Longest Increasing Subsequence
+LeetCode152. Maximum Product Subarray
+
+
+
+
+
+
+Optional
+542 01 matrix
+LeetCode.10 Regular Expression Matching
+LeetCode.64 Minimum Path Sum
+LeetCode.291 Word Pattern II
+LeetCode.79 word search
+216. Combination Sum III
+70. Climbing Stairs
+LeetCode279. Perfect Squares
+LeetCode673. Number of Longest Increasing Subsequence
+LeetCode140. Word Break II
+
+
+
+
+
+Memorization | DP  - Advanced
+Includes: Sorting | Graph | DFS | BFS
+Difficulty Level: ( Medium | Hard )
+
+
+
+Must-Do
+LeetCode801. Minimum Swaps To Make Sequences Increasing
+LeetCode790. Domino and Tromino Tiling
+LeetCode764. Largest Plus Sign
+LeetCode750. Number Of Corner Rectangles
+LeetCode413. Arithmetic Slices
+LeetCode446. Arithmetic Slices II - Subsequence
+LeetCode132. Palindrome Partitioning II
+LeetCode91. Decode Ways
+LeetCode639. Decode Ways II
+LeetCode354. Russian Doll Envelopes
+LC 32. Longest Valid Parentheses
+LC 55. Jump Game
+LC 375. Guess Number Higher or Lower II
+LC 363. Max Sum of Rectangle No Larger Than K
+LC 44. Wildcard Matching
+
+
+
+Optional
+LC337. House Robber III
+LC525. Contiguous Array
+LC174. Dungeon Game
+LC410. split array largest sum
+LC5. Longest Palindromic Substring
+LC516. Longest Palindromic Subsequence
+LC312. burst ballons
+LC212. Word Pattern II
+LC 464. Can I Win
+LeetCode787. Cheapest Flights Within K Stops
+LC95. Unique Binary Search Trees II
+LC96. Unique Binary Search Trees
+LC97. Interleaving String
+LC135. Candy
+LC329. Longest Increasing Path in Matrix
