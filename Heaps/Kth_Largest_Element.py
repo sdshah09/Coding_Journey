@@ -1,3 +1,6 @@
+# Time Complexity:- O(nlogk)
+# Space Complexity:- O(k)
+
 import heapq
 
 class Solution:
