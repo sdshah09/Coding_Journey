@@ -29,36 +29,21 @@ Output: arr[] = {1, 14, 5, 4, 2, 1, 3, 20, 20, 98, 87, 32, 54}
 
 '''
 class Solution:
-    # def threeway(self, nums, lowVal, highVal):
-    #     l, m, r = 0, 0, len(nums) - 1
+    def threeway(self, nums, lowVal, highVal):
+        l, m, r = 0, 0, len(nums) - 1
         
-    #     while m <= r:
-    #         if nums[m] < lowVal:
-    #             nums[m], nums[l] = nums[l], nums[m]
-    #             l += 1
-    #             m += 1
-    #         elif nums[m] > highVal:
-    #             nums[m], nums[r] = nums[r], nums[m]
-    #             r -= 1
-    #         else:
-    #             m += 1
-                
-    #     return nums
-    from itertools import chain
-
-    def sort_list_ranges(self,input_list, low, high):
-
-        sorted_list = [[] for _ in range(3)]
-
-        for elem in input_list:
-            if elem < low:
-                sorted_list[0].append(elem)
-            elif elem > high:
-                sorted_list[2].append(elem)
+        while m <= r:
+            if nums[m] < lowVal:
+                nums[m], nums[l] = nums[l], nums[m]
+                l += 1
+                m += 1
+            elif nums[m] > highVal:
+                nums[m], nums[r] = nums[r], nums[m]
+                r -= 1
             else:
-                sorted_list[1].append(elem)
-
-        return [item for sublist in sorted_list for item in sublist]
+                m += 1
+                
+        return nums
 
 
 
