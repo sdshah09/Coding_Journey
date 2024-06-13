@@ -45,11 +45,27 @@ class Solution:
             freq[i]+=1
         minHeap = []
         for i,j in freq.items():
-            heapq.heappush(minHeap,(j,i))
+            heapq.heappush(minHeap,(i,j))
             if len(minHeap)>k:
                 heapq.heappop(minHeap)
         res = []
         while minHeap:
             i,j = heapq.heappop(minHeap)
-            res.append(j)
+            res.append(i)
         return res
+
+    # Using Bucket sort
+    def topKFrequentBucket(self, nums: List[int], k: int) -> List[int]:
+        count = {}
+        freq = [[] for i in range(len(nums) + 1)]
+        print(freq)
+        for n in nums:
+            count[n] = 1 + count.get(n, 0)
+        for n, c in count.items():
+            freq[c].append(n)
+        res = []
+        for i in range(len(freq) - 1, 0, -1):
+            for n in freq[i]:
+                res.append(n)
+                if len(res) == k:
+                    return res

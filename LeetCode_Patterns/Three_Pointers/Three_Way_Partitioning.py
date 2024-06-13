@@ -45,8 +45,6 @@ class Solution:
                 
         return nums
 
-
-
 if __name__ == "__main__":
     sol = Solution()
     result = sol.sort_list_ranges([1, 14, 5, 20, 4, 2, 54, 20, 87, 98, 3, 1, 32], 1, 5)
