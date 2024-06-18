@@ -31,4 +31,23 @@ s consists of only uppercase English letters.
 0 <= k <= s.length
 
 '''
+class Solution:
+    def characterReplacement(self, s: str, k: int) -> int:
+        i,j =0,0
+        freq = {}
+        maxLen = 0
+        while j<len(s):
+            if s[j] not in freq:
+                freq[s[j]]=0
+            freq[s[j]]+=1
+            if((j-i+1)-max(freq.values()))<=k:
+                maxLen = max(maxLen,j-i+1)
+            else:
+                freq[s[i]]-=1
+                if not freq[s[i]]:
+                    del freq[s[i]]
+                i+=1
+            j+=1
+        return maxLen
+            
 
