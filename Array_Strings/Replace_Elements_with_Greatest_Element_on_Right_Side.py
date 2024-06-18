@@ -34,6 +34,7 @@ Constraints:
 1 <= arr.length <= 104
 1 <= arr[i] <= 105
 
+# This is a similar concept to monotnic stack
 '''
 
 # Time complexity:- O(n)
