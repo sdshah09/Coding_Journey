@@ -32,6 +32,7 @@ nums2.length == n
 -106 <= nums1[i], nums2[i] <= 106
 
 '''
+from typing import List
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         x,y = nums1,nums2
