@@ -1,4 +1,10 @@
 '''
+ 2486. Append Characters to String to Make Subsequence
+Solved
+Medium
+Topics
+Companies
+Hint
 You are given two strings s and t consisting of only lowercase English letters.
 
 Return the minimum number of characters that need to be appended to the end of s so that t becomes a subsequence of s.
@@ -32,22 +38,11 @@ Constraints:
 
 1 <= s.length, t.length <= 105
 s and t consist only of lowercase English letters.
-Seen this question in a real interview before?
-1/5
-Yes
-No
-Accepted
-36.1K
-Submissions
-54.3K
-Acceptance Rate
-66.4%
-
 '''
 
 class Solution:
     def appendCharacters(self, s: str, t: str) -> int:
-        i,j=0,0
+        i,j =0,0
         while i<len(s) and j<len(t):
             if s[i]==t[j]:
                 i+=1
@@ -55,3 +50,6 @@ class Solution:
             else:
                 i+=1
         return len(t)-j
+if __name__ == "__main__":
+    sol = Solution()
+    print(sol.appendCharacters("coaching","coding"))
