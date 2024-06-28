@@ -62,3 +62,6 @@ class Solution:
         idx = 0
         candidates.sort()
         return recurse(target,result,cur,idx)
+if __name__ == "__main__":
+    sol = Solution()
+    print(sol.combinationSum2([1,2,2,1],4))

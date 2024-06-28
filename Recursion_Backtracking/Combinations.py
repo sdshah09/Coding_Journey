@@ -39,7 +39,7 @@ class Solution:
         
         def recurse(cur,res,idx):
             if len(cur)==k:
-                res.add(tuple(i for i in cur))
+                res.add(tuple(cur[:]))
                 return
             for i in range(idx,n+1):
                 cur.append(i)
