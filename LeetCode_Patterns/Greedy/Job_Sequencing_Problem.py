@@ -90,4 +90,3 @@ if __name__ == "__main__":
     jobs = [job(1, 4, 20), job(2, 1, 10), job(3, 2, 40), job(4, 2, 30)]
     count, profit = Solution().jobScheduling(jobs)
     print(count, profit)
-Output: 3 90
