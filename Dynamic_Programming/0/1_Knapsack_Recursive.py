@@ -30,14 +30,15 @@ class Solution:
         # If the current weight is less than the given weight then there will be 2 choices.Either we take consider the weight for maximum profit or we do not.
         
         if wt[n-1]<=W:
+            print(W-wt[n-1])
             return max(val[n-1]+self.knapSack(W-wt[n-1],wt,val,n-1),self.knapSack(W,wt,val,n-1))
         else:
             return self.knapSack(W,wt,val,n-1)
     
 if __name__ == '__main__':
     sol = Solution()
-    profit = [60, 100, 120]
-    weight = [10, 20, 30]
-    W = 50
+    weight = [1, 1, 1]
+    profit = [10, 20, 30]
+    W = 2
     n = len(profit)
     print(sol.knapSack(W, weight, profit, n))
