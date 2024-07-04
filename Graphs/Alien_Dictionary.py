@@ -55,7 +55,7 @@ class Solution:
         for i in range(len(words) - 1):
             w1, w2 = words[i], words[i + 1]
             min_len = min(len(w1), len(w2))
-            # Check for invalid order (prefix situation)
+            # Check for invalid order (prefix situation) # apple,app
             if len(w1) > len(w2) and w1[:min_len] == w2[:min_len]:
                 return ""
             for j in range(min_len):
@@ -75,7 +75,7 @@ class Solution:
         res = []
         while q:
             node = q.popleft()
-            res.append(chr(node + ord('a')))
+            res.appenjd(chr(node + ord('a')))
             for neighbor in adj[node]:
                 in_degree[neighbor] -= 1
                 if in_degree[neighbor] == 0:

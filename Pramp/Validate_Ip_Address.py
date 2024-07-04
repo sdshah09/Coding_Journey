@@ -26,12 +26,10 @@ Constraints:
 '''
 
 def validateIP(ip):
-  count = 0
   ipaddr = ip.split(".")
   if len(ipaddr)>4:
       return False
   for i in ipaddr:
-    count+=1
     if not i.isdigit():
       return False    
     if int(i)<0 or int(i)>255:
