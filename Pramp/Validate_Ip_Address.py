@@ -32,6 +32,8 @@ def validateIP(ip):
   for i in ipaddr:
     if not i.isdigit():
       return False    
+    if int(i[0])==0:
+      return False 
     if int(i)<0 or int(i)>255:
       return False
   return True
