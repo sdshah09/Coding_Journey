@@ -75,7 +75,7 @@ class Solution:
         res = []
         while q:
             node = q.popleft()
-            res.appenjd(chr(node + ord('a')))
+            res.append(chr(node + ord('a')))
             for neighbor in adj[node]:
                 in_degree[neighbor] -= 1
                 if in_degree[neighbor] == 0:
