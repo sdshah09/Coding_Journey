@@ -43,5 +43,16 @@ class Solution:
             recurse(cur,index+1)
         cur = []
         nums.sort()
-        recurse(cur,0)
+        def recurse2(res,nums,cur,idx):
+            for i in range(idx,len(nums)):
+                cur.append(nums[i])
+                res.add(tuple(cur[:]))
+                recurse(res,nums,cur,i+1)
+                cur.pop()
+            return
+        res,cur = set(),[]
+        res.add(tuple(cur[:]))
+        idx = 0
+        nums.sort()
+        recurse(res,nums,cur,idx)
         return res
