@@ -47,10 +47,10 @@ class Solution:
         return maxProfit
 
     def solution2(self,prices):
-        lowest = prices[0]
-        maxProfit = 0
-        for i in prices:
-            if i<lowest:
-                lowest = i
-            maxProfit = max(maxProfit,i - lowest)
+        minPrice,maxProfit = float('inf'),0
+        for price in prices:
+            if price<minPrice:
+                minPrice = price
+            elif price-minPrice>maxProfit:
+                maxProfit = price-minPrice
         return maxProfit
