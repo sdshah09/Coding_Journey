@@ -23,7 +23,7 @@ Constraints:
 
 3<=post_exp.length()<=104
 
-
+postfix to infix is ( + t2 + operator + t1  )
 '''
 
 class Solution:
