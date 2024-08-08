@@ -45,7 +45,7 @@ class Solution:
                     s+=stack.pop()
                 stack.pop()
             else:
-                while(stack and self.priority(i)<=self.priority(stack[-1])):
+                while(stack and self.priority(i)<self.priority(stack[-1])): # The only change is if the priority is same we append it to the stack rather than popping and adding to the string
                     s+=stack.pop()
                 stack.append(i)
         while stack:
