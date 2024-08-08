@@ -20,39 +20,68 @@ Steps
 '''
 
 class Solution:
-    
-    def priority(self,s):
-        if s == '^':
-            return 3
-        elif s in '*/':
-            return 2
-        elif s in '-+':
-            return 1
-        else:
-            return -1
-    #Function to convert an infix expression to a postfix expression.
-    def InfixtoPostfix(self, exp):
-        #code here
-        stack = []
-        s = ''
-        for i in exp:
-            if i.isalnum():
-                s+=i
-            elif i == '(':
-                stack.append(i)
-            elif i==')':
-                while(stack and stack[-1]!="("):
-                    s+=stack.pop()
-                stack.pop()
-            else:
-                while(stack and self.priority(i)<self.priority(stack[-1])): # The only change is if the priority is same we append it to the stack rather than popping and adding to the string
-                    s+=stack.pop()
-                stack.append(i)
-        while stack:
-            s += stack.pop()
-        return s
+    def __init__(self):
+        self.stack = []
+        self.output = []
 
-    def InfixToPrefix(self,exp):
-        exp = exp[::-1]
-        prefix = self.InfixtoPostfix(exp)
-        return prefix[::-1]
+    def isOperator(self, c):
+        return not c.isalnum()
+
+    def getPriority(self, C):
+        if C == '-' or C == '+':
+            return 1
+        elif C == '*' or C == '/':
+            return 2
+        elif C == '^':
+            return 3
+        return 0
+
+    def infixToPostfix(self, infix):
+        # Add '(' to the beginning and ')' to the end of the infix expression
+        infix = '(' + infix + ')'
+        l = len(infix)
+        stack = []
+        output = ''
+
+        for i in range(l):
+            if infix[i].isalnum():
+                output += infix[i]
+            elif infix[i] == '(':
+                stack.append('(')
+            elif infix[i] == ')':
+                while stack and stack[-1] != '(':
+                    output += stack.pop()
+                stack.pop()  # Remove '(' from the stack
+            else:
+                if self.isOperator(stack[-1] if stack else ''):
+                    if infix[i] == '^':
+                        while stack and self.getPriority(infix[i]) <= self.getPriority(stack[-1]):
+                            output += stack.pop()
+                    else:
+                        while stack and self.getPriority(infix[i]) < self.getPriority(stack[-1]):
+                            output += stack.pop()
+                stack.append(infix[i])
+
+        while stack:
+            output += stack.pop()
+
+        return output
+
+    def infixToPrefix(self, infix):
+        # Step 1: Reverse the infix expression
+        infix = infix[::-1]
+
+        # Step 2: Replace '(' with ')' and vice versa
+        infix = ''.join(')' if ch == '(' else '(' if ch == ')' else ch for ch in infix)
+
+        # Step 3: Convert the modified infix expression to postfix
+        postfix = self.infixToPostfix(infix)
+
+        # Step 4: Reverse the postfix expression to get the prefix expression
+        prefix = postfix[::-1]
+        return prefix
+
+# Example usage
+sol = Solution()
+print("Infix expression: (p+q)*(c-d)")
+print("Prefix Expression:", sol.infixToPrefix("(p+q)*(c-d)"))
