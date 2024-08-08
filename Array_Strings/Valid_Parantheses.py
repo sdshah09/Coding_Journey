@@ -53,5 +53,20 @@ class Solution:
         if res:
             return False
         return True
-        
+    def isValid2(self, s: str) -> bool:
+        stack = []
+        for i in s:
+            if i in "({[":
+                stack.append(i)
+            else:
+                if stack:
+                    ch = stack.pop()
+                    if (i==")" and ch=="(") or (i=="]" and ch=="[") or (i=="}" and ch=="{"):
+                        continue
+                    else:
+                        return False
+                else:
+                    return False
+
+        return not stack 
             
