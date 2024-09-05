@@ -41,4 +41,4 @@ class Solution:
                     count+=1
                 i+=1
             stack.append(count)
-        return stack
+        return sta
