@@ -1,6 +1,7 @@
+// package Traversal.PreOrder;
 // package PrePostTraversal;
 import java.util.*;
-public class PrePostTraversal {
+public class PostOrderTraversal {
     private static class Node {
         int data;
         ArrayList<Node> children = new ArrayList<>();
@@ -26,20 +27,12 @@ public class PrePostTraversal {
             }
         }
 
-        System.out.println("Preorder Traversal\n");
-        preOrderTraversal(root);
+        // System.out.println("Preorder Traversal\n");
+        // preOrderTraversal(root);
 
         System.out.println("PostOrder Traversal");
         postOrderTraversal(root);
 
-    }
-
-    private static void preOrderTraversal(Node root) {
-        if(root == null) return;
-        System.out.println("For preorder traversal printing node: " + root.data);
-        for(Node children: root.children) {
-            preOrderTraversal(children);
-        }
     }
 
     private static void postOrderTraversal(Node root) {
