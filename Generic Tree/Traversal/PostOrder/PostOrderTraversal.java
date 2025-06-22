@@ -1,5 +1,6 @@
 // package Traversal.PreOrder;
 // package PrePostTraversal;
+package Traversal.PostOrder;
 import java.util.*;
 public class PostOrderTraversal {
     private static class Node {
