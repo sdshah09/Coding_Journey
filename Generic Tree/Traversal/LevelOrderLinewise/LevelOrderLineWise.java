@@ -25,6 +25,9 @@ public class LevelOrderLineWise {
                 stack.push(t);
             }
         }
+        for(Node children: root.children.reversed()) {
+            System.out.println(children.data);
+        }
         System.out.println("Level Order Traversal Linewise is: \n");
         levelOrderTraversalLinewise(root);
     }
