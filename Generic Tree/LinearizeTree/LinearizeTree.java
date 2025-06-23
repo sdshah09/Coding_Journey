@@ -1,7 +1,6 @@
 package LinearizeTree;
 import java.util.*;
 public class LinearizeTree {
-    static Node prev;
     private static class Node {
         int data;
         ArrayList<Node> children = new ArrayList<>();
